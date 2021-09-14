@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway:200|Roboto');
+
+
+@font-face{
+  font-family:'Heathergreen';
+  src: url("fonts/Heathergreen.woff") format("woff"),
+  url("fonts/Heathergreen.otf") format("opentype");
+}
+body{
+  background-color:whitesmoke;
+}
+
+#vibey{
+  background-color:whitesmoke;
+
+  color:black;
+}
+.navbar{
+  color:white;
+  background-color:black;
+  border:none;
+  margin-bottom:0px;
+}
+
+#bio{
+margin:3em;
+}
+
+.social_nav{
+  padding-top:.5em;
+}
+.smallprint{
+  font-size:1em;
+}
+
+.social{
+  height:50px;
+  width:50px;
+  padding:0px!important;
+}
+
+.social_nav a{
+  padding:5px!important;
+}
+
+.sample{
+  max-height:50vh;
+}
+
+.pack{
+  margin-bottom:25px;
+}
+
+.page_header{
+  font-family:'Heathergreen';
+  text-align:center;
+  margin:auto;
+  font-size:10em;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.service-item{
+  width:100%;
+  height:400px;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+#item1{
+  background-image: url(imgs/item1.png);
+}
+#item2{
+  background-image: url(imgs/item2.png);
+}
+#item3{
+  background-image: url(imgs/item3.jpg);
+}
+#item4{
+  background-image: url(imgs/item4.jpg);
+}
+.product_title{
+  font-family:'Heathergreen';
+  text-align:center;
+  margin:auto;
+  font-size:6em;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#harmon_single{
+  margin-top:20px;
+}
+
+.descr{
+  margin-bottom:25px;
+  text-align:center;
+  font-style:italic;
+  font-size:1.9em;
+}
+
+
+.music_player{
+  margin:auto;
+  width:100%;
+  text-align:center;
+}
+
+.nav_text{
+  font-size:50px;
+  font-family:'Heathergreen';
+  padding-left:10px;
+  color:whitesmoke;
+}
+
+.logo{
+  background-image:url("imgs/logo.png");
+  width:10em;
+  height:3em;
+  background-size:contain;
+  background-repeat:no-repeat;
+  overflow:hidden;
+}
+
+#album-cover{
+  background-size:contain;
+  background-repeat:no-repeat;
+  overflow:hidden;
+}
+
+.jumbotron{
+  padding-top:0px;
+  padding-bottom:50px;
+  /*background-image:url("imgs/John_MagicBox_Banner.jpg");*/
+  background-color:black;
+  width:100%;
+  height:calc(100vh - 10px);
+  background-position:top;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-image:url('imgs/john_banner_edit.jpg');
+ 
+
+}
+
+.jumbotron#tix{
+  height:50vh;
+}
+.jumbotron.smaller{
+  height:40vh;
+  background-position:center;
+  background-size:contain;
+  background-image:url("imgs/john_banner_edit.jpg");
+
+}
+
+.jumbotron#tour{
+  height:50vh;
+}
+
+h1, nav, p, div, a{
+  color:black;
+}
+
+p, div, a{
+  font-family: 'Lato';
+}
+
+#vibey{
+  color:black!important; 
+}
+
+.buy_button{
+  margin:auto;
+  margin-top:15px;
+  margin-bottom:55px;
+  text-align:center;
+  color:black!important;
+  
+}
+
+.buy_button button{
+  padding:20px;
+  padding-top:35px;
+  padding-bottom:35px;
+  background-color:rgba(0, 0, 0, 0.0);
+  border:3px black solid !important;
+  border-radius:0px;
+  font-size:3em;
+  font-family:'Roboto';
+  transition: border 0.2s, background-color 0.2s;
+  width:100%;
+}
+
+.buy_button button:hover{
+  border: 3px solid #fd0457!important;
+  background-color:#fd0457;
+  color:white!important;
+} 
+
+#price{
+  font-family:'josefine sans';
+  font-size:3em;
+}
+
+.nav#mobile_nav{
+  display:none;
+}
+
+.price{
+  margin:auto;
+  margin-top:10px;
+  text-align:center;
+  font-size:3em;
+}
+.retail{
+  text-decoration: line-through;
+  color:red;
+  margin-right:15px;
+  
+
+}
+
+.glow a{
+  color:rgb(12,235,235)!important;
+  border:2px rgb(12,235,235) solid;
+  padding:20px;
+  border-radius:2px;
+  font-family: 'Raleway';
+  
+}
+.music_button{
+  width:100%;
+  height:100%;
+  text-align:center;
+  margin:auto;
+  float:left;
+  transition: ease .2s;
+}
+
+.music_button:hover{
+  transform: scale(1.2);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color:black;
+  color:white !important;
+}
+
+.nav a{
+  transition: ease .2s;
+}
+.nav a:hover{
+  transform:scale(1.2);
+}
+
+.nav .item{
+  font-family:'Raleway';
+  font-size: 1.3em;
+  padding-top:.7em;
+}
+
+
+h1.name{
+  margin-top:60vh;
+  font-family:'Josefin Sans';
+}
+
+
+.navbar-nav{
+  margin:auto;
+  text-align:center;
+}
+
+
+.tix_btn{
+  transition: all .25s ease;
+  background-color:transparent;
+  color:#d32c64;
+  font-size:2em;
+  padding:15px;
+  padding-bottom:5px;
+  padding-top:5px;
+  font-family:'Raleway';
+  border-radius:1px;
+  border-width:2px;
+}
+
+.tix_btn:hover{
+  color:gold!IMPORTANT;
+  border-color:gold!IMPORTANT;
+}
+
+.contact{
+  margin:auto;
+  background-color:rgba(0,0,0, .5);
+  width:100%;
+}
+
+.cta{
+  font-family:'Raleway';
+  font-size: 5em;
+  border: 1px white solid;
+  padding:15px;
+  margin:40px;
+  transition:.3s;
+}
+a.cta {
+  transition: ease .3s;
+  border:1px solid white;
+  background-color:rgba(0,0,0,.35);
+}
+a.cta:hover{
+  text-decoration:none;
+  font-size:7em;
+  background-color:rgba(0,0,0,.5);
+}
+.spacervh{
+  height:25vh;
+}
+.spacer_25{
+  height:25px;
+}
+.spacer_50{
+  height:50px;
+}
+
+.spacer_100{
+  height:100px;
+}
+.spacer_200{
+  height:200px;
+}
+.spacer_250{
+  height:250px;
+}
+.spacer_225{
+  height:225px;
+}
+.spacer_300{
+  height:300px;
+}
+.spacer_400{
+  height:400px;
+}
+.spacer_500{
+  height:500px;
+}
+
+.spacer_bottom{
+  height:50vh;
+}
+
+
+.col-sm-6 .chali_ep{
+  height:50vw;
+  width:50vw;
+}
+
+.col-sm-6 .marcus_ep{
+  height:50vw;
+  width:50vw;
+}
+
+#front_logo{
+  height:20vh;
+  background-image:url("imgs/logo.png");
+  background-position:left;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+#mc_embed_signup_scroll{
+  margin:auto;
+  text-align:center;
+}
+
+#mc_embed_signup_scroll label, #mc_embed_signup_scroll input {
+  margin:auto;
+  padding:20px;
+  width:100%;
+}
+
+#mc_embed_signup_scroll .button{
+  background-color:#fd0457!important;
+}
+@media screen and (min-width:1000px){
+  .buy_button button{
+    border: 3px solid #fd0457!important;
+    background-color:#fd0457;
+    color:white!important;
+  }
+  
+}
+@media screen and (max-width:700px){
+
+  a.cta{
+    font-size:30px;
+    border:none;
+  }
+  a.cta:hover{
+    font-size:40px;
+  }
+  .jumbotron{
+    padding-top:0px;
+    padding-bottom:0px;
+    background-size:contain!important;
+    height:90vh;
+    background-image:url('imgs/john_banner.jpeg');
+  }
+  h1.name{
+	margin-top:10vh;
+  }
+  .navbar .navbar-nav li a{
+    font-size:1em!important;
+  }
+  .tix_btn{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+}
+@media only screen and (max-width:600px){
+  .jumbotron{
+    padding-top:0px;
+    padding-bottom:0px;
+    height:50vh;
+    background-size:contain!important;
+  }
+  a.cta{
+    font-size:30px;
+    border:none;
+  }
+  a.cta:hover{
+    font-size:40px;
+  }
+  .navbar a{
+    font-size:2em!important;
+  }
+  .tix_btn{
+    font-size:3em;
+  }
+  .info{
+    font-size:1.3em;
+  }
+  .chali_ep{
+    margin:auto;
+    text-align:center;
+  }
+  .marcus_ep{
+    margin:auto;
+    text-align:center;
+  }
+  #harmon_single .page_header{
+    font-size:12em;
+  }
+  .smallprint{
+    font-size:1.5em;
+  }
+  #mc_embed_signup {
+    font-size:2.5em;
+  }
+  
+}
