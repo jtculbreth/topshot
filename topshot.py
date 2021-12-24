@@ -28,18 +28,24 @@ with open('./files/t.html', 'r') as html_file:
             price = card_data[6].partition(subString)[2]
             avg_price = card_data[7].partition(subString2)[2]
             avg_price = avg_price[:-8]
-            f_price = float(price)
+            f_price = price.replace(',','')
+            avg_price = avg_price.replace(',','')
+            f_price = float(f_price)
             f_avg_price = float(avg_price)
             diff = f_avg_price - f_price
-            card_datum = [name, action, price, avg_price, diff]
+            percentage = round((diff/f_price)*100, 2)
+            card_datum = [name, action, price, avg_price, diff, percentage]
             #print(card_datum)
             
             data.append(card_datum)
         #print("\n")
     def sortByDiff(e):
         return e[4]
+
+    def sortByPerc(e):
+        return e[5]
     
-    data.sort(key=sortByDiff)
+    data.sort(key=sortByPerc)
     for x in data:
         for y in x:
             print(y)
